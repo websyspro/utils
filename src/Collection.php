@@ -57,8 +57,8 @@ class Collection
     Closure $fn
   ): void {
     if( $fn instanceof Closure ){
-      foreach( $this->items as $item ){
-        $fn( $item );
+      foreach( $this->items as $key => $item ){
+        $fn( $item, $key );
       }
     }
   }  

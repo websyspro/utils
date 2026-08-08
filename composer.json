@@ -1,6 +1,6 @@
 {
   "name": "websyspro/utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Set of features for front-end and back-end development",
   "minimum-stability": "dev",
   "prefer-stable": true,
